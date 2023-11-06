@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('loggedInUser', username);
 
             // Redirect to the details page
-            window.location.href = 'details.html';
+            window.location.href = 'Details.html';
         } else {
             loginError.textContent = 'Invalid username or password';
         }
